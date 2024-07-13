@@ -2,3 +2,33 @@
     text-align: justify;
     line-height: 2em;
 }
+
+footer{
+    text-align: center;
+    font-size: 19px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.redes a{
+    color: rgb(71, 71, 153);
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.subir{
+    background-color: rgb(71, 71, 153);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+}
