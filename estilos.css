@@ -9,6 +9,7 @@ footer{
     background-color: #333;
     color: #fff;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .redes a{
@@ -16,6 +17,8 @@ footer{
     text-decoration: none;
     font-size: 40px;
     letter-spacing: 15px;
+    color: #559cdf;
+    text-shadow: 0 0 5px #ccc;
 }
 
 .subir{
@@ -31,4 +34,20 @@ footer{
     font-size: 50%;
     border-radius: 50%;
     box-shadow: 0 0 5px #000;
+    color: #57aeff;
+    text-shadow: 0 0 5px #ccc;
+}
+
+.slide img {
+    height: 65vh;
+}
+
+.navbar-brand span {
+    color: #57aeff;
+    text-shadow: 0 0 5px #ccc;
+}
+
+footer span {
+    color: #57aeff;
+    text-shadow: 0 0 5px #ccc;
 }
