@@ -23,14 +23,14 @@ footer{
 
 .subir{
     background-color: rgb(71, 71, 153);
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     position: fixed;
-    right: 40px;
-    bottom: 40px;
+    right: 45px;
+    bottom: 45px;
     color: #fff;
-    line-height: 40px;
+    line-height: 45px;
     font-size: 50%;
     border-radius: 50%;
     box-shadow: 0 0 5px #000;
@@ -50,4 +50,10 @@ footer{
 footer span {
     color: #57aeff;
     text-shadow: 0 0 5px #ccc;
+}
+
+div .slide img {
+    height: 50vh;
+    border-radius: 45%;
+    
 }
