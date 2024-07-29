@@ -5,6 +5,26 @@ $color3: #ccc;
 $color4: #fff;
 $color5: #000;
 
+//dimensiones
+$small-screen: 600px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+
+.container{
+    @media (max-width: $large-screen) {
+        flex: 0 0 50%;
+        padding: 15px;
+    }
+    @media (max-width: $medium-screen) {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+    @media (max-width: $small-screen) {
+        flex: 0 0 150%;
+        padding: 5px;
+    }
+}
+
 .nosotros{
     text-align: justify;
     line-height: 2em;
@@ -96,3 +116,4 @@ textarea:focus {
     font-size: 25px;
     border: 5px dotted;
 }
+
