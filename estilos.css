@@ -78,10 +78,10 @@ div .slide img {
 
 #backgraund {
   background-image: linear-gradient(to right bottom, rgba(9, 36, 61, 0.2), rgba(224, 149, 247, 0.2)), url(./img/13.jpg);
-  background-size: cover;
+  background-size: auto;
   background-repeat: repeat;
   background-position: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 .card:hover {
