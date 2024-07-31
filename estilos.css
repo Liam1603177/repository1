@@ -57,6 +57,7 @@ footer {
 
 .slide img {
   height: 65vh;
+  opacity: 0.9;
 }
 
 .navbar-brand span {
