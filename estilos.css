@@ -58,6 +58,8 @@ footer {
 .slide img {
   height: 65vh;
   opacity: 0.9;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar-brand span {
