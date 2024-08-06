@@ -62,6 +62,11 @@ footer {
      object-fit: cover;
 }
 
+.custom-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .navbar-brand span {
   color: #57aeff;
   text-shadow: 0 0 5px #ccc;
@@ -85,29 +90,59 @@ div .slidee img {
     width: 50rem;
   }
 }
-.custom-card .custom-img-col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.custom-card img {
-  max-width: 100%;
-  height: auto;
+@media (max-width: 1199.98px) and (min-width: 768px) {
+  .custom-card .custom-img-col {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .custom-card .col-md-8 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .custom-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .custom-card .card-body {
+    padding: 1.25rem;
+  }
 }
 @media (max-width: 768px) {
+  .custom-card {
+    width: 90%;
+    margin: 0 auto;
+  }
   .custom-card .custom-img-col,
   .custom-card .col-md-8 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .custom-card img {
+    max-width: 100%;
+    height: auto;
   }
   .custom-card .card-body {
     padding: 1rem;
   }
 }
 @media (max-width: 576px) {
+  .custom-card {
+    width: 95%;
+    margin: 0 auto;
+  }
   .custom-card .card-body {
     padding: 0.75rem;
   }
+}
+
+.noticias-custom {
+  max-width: 80%;
+  margin: auto;
+}
+
+.noticas-img {
+  max-width: 100%;
+  height: auto;
 }
 
 html, body {

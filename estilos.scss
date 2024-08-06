@@ -72,6 +72,10 @@ footer{
     object-fit: cover;
 }
 
+.custom-img {
+    object-fit: cover;
+}
+
 .navbar-brand span {
     color: $color2;
     text-shadow: 0 0 5px $color3;
@@ -94,22 +98,40 @@ div .slidee img {
         width: 50rem;
     }
 
-    .custom-img-col {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    @media (max-width: 1199.98px) and (min-width: 768px) {
+        .custom-img-col {
+            flex: 0 0 40%;
+            max-width: 40%;
+        }
 
-    img {
-        max-width: 100%;
-        height: auto;
+        .col-md-8 {
+            flex: 0 0 60%;
+            max-width: 60%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
     }
 
     @media (max-width: 768px) {
+        width: 90%;
+        margin: 0 auto;
+
         .custom-img-col,
         .col-md-8 {
             flex: 0 0 100%;
             max-width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
 
         .card-body {
@@ -118,13 +140,24 @@ div .slidee img {
     }
 
     @media (max-width: 576px) {
+        width: 95%;
+        margin: 0 auto;
+
         .card-body {
             padding: 0.75rem;
         }
     }
 }
 
+.noticias-custom {
+    max-width: 80%;
+    margin: auto;
+}
 
+.noticas-img {
+    max-width: 100%;
+    height: auto;
+}
 
 html, body {
     height: 100%;
@@ -154,4 +187,3 @@ textarea:focus {
     font-size: 25px;
     border: 5px dotted;
 }
-
